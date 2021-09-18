@@ -1,6 +1,6 @@
-obj-m += helloworld.o
+obj-m += helloworld_rpi_3b.o
 
-helloworld-objs := test.o helloworld.o
+helloworld_rpi_3b-objs := test.o helloworld_char.o
 
 KERNEL_DIR ?= /lib/modules/$(shell uname -r)/build
 
